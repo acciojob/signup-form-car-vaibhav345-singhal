@@ -9,39 +9,39 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<form method="POST">
-		<lable for="name">Name</lable>
+		<lable for='name'>Name</lable>
 		<input type="text" name="name" id="name" required placeholder="name">
 
-		<lable for="email">Email</lable>
+		<lable for='email'>Email</lable>
 		<input type="email" name="email" id="email" required placeholder="email">
 
-		<lable for="gender_m">Male</lable>
+		<lable for='gender_m'>Male</lable>
 		<input type="radio" name="gender" id="gender_m" required>
 
-		<lable for="gender_f">Female</lable>
+		<lable for='gender_f'>Female</lable>
 		<input type="radio" name="gender" id="gender_f" required>
 		
-		<label for="cars">Car Brands</label>
-		<select name="cars" id="cars">
+		<label for='cars'>Car Brands</label>
+		<select name="cars" id="cars" required>
 			<option value="" disabled selected>--Please choose an option--</option>
 			<option value="bmw">BMW</option>
 			<option value="audi">Audi</option>
 			<option value="mercedez">Mercedez</option>
 		</select>
 
-		<lable for="age">Age</lable>
-		<input type="number" name="age" id="age" required placeholder="age">
+		<lable for='age'>Age</lable>
+		<input type="number" name="age" id="age" placeholder="age" required>
 
-		<lable for="dob">DOB</lable>
+		<lable for='dob'>DOB</lable>
 		<input type="date" name="dob" id="dob" required>
 
-		<lable for="tel">Phone Number</lable>
-		<input type="tel" name="tel" id="tel" required placeholder="xxx-xxx-xxxx">
+		<lable for='tel'>Phone Number</lable>
+		<input type="tel" name="tel" id="tel" placeholder="xxx-xxx-xxxx" required>
 
-		<lable for="password">Password</lable>
-		<input type="password" name="password" id="password" placeholder="password">
+		<lable for='password'>Password</lable>
+		<input type="password" name="password" id="password" placeholder="password" required>
 
-		<lable for="tos">I agree to the TOS</lable>
+		<lable for='tos'>I agree to the TOS</lable>
 		<input type="checkbox" name="tos" id="tos" required>
 		
 		<button type="submit">Submit</button>
